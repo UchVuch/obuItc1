@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.container {
+  max-width: 1490px;
+  width: 100%;
+  padding-inline: 25px;
+  margin: 0 auto;
+}
+
+.body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  height: 100vh;
+}
+
+.main {
+  flex: 1 0 auto;
+  padding-block: 177px 146px;
+}
+
+.search {
+  border: none;
+  max-width: 704px;
+  width: 100%;
+  height: 43px;
+  background-color: #C4C4C4;
+  padding: 15px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__socials {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+
+.nav__button {
+  margin-left: 51px;
+  color: #000;
+}
+
+/*header*/
+.header {
+  background-color: #FFDE59;
+  padding-block: 8px 7px;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*content*/
+.content {
+  margin-bottom: 146px;
+}
+
+.title {
+  text-align: left;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #131A35;
+  margin-bottom: 48px;
+}
+
+.content__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  column-gap: 146px;
+  row-gap: 50px;
+}
+
+.content__item {
+  width: 250px;
+  height: 180px;
+
+  background: #131A35;
+}
+
+.main__bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.see-more {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+/*footer*/
+.footer {
+  background-color: #131A35;
+  padding-block: 8px 7px;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .nav__socials {
+  margin-bottom: 3px;
+}
+
+.footer__text {
+  color: #FFDE59;
+}
